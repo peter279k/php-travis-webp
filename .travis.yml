@@ -8,6 +8,7 @@ php:
 
 before_script:
   - php -v
+  - php -m | grep gd
 
 script:
   - php -r 'var_dump(function_exists("imagewebp"));'
