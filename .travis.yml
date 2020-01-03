@@ -10,4 +10,4 @@ before_script:
   - php -v
 
 script:
-  - php -r 'var_dump(function_exists(\"imagewebp\"));'
+  - php -r 'var_dump(function_exists("imagewebp"));'
